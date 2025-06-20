@@ -1,0 +1,238 @@
+/* MedicPage.module.css */
+
+.medicPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-size: 100% 90%; 
+  background-image: url(./1234.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right; 
+  
+}
+
+.container-head {
+  background: #d0acb2;
+  padding: 35px;
+  position: absolute;
+  width: 95.4%;
+  
+}
+
+
+.circle-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  margin-left: 30px; 
+  margin-right: 850px;
+  margin-top: 150px;  
+}
+
+.blue-circle {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: #f0a4a7;
+  opacity: 80%;
+ /* background-color: #3498db;*/
+}
+
+.circle-text {
+  font-family: 'NumeleFontului', sans-serif; 
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30%;
+}
+
+.button-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  position: absolute;
+  margin-bottom: 400px;
+  margin-left: 420px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.button-item {
+  width: 15%;
+  margin-right: 5px; 
+}
+
+.blue-button {
+  background-color: #0897a5;
+  color: #fff;
+  font-size: 13px;
+  border: none;
+  max-width: 250px; /
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 15px 50px; 
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+.blue-button:hover {
+  background-color: #0056b3;
+}
+
+.button-list-med {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+  width: 50%;
+  position: absolute;
+  right: 30px;
+  top: -2px; 
+}
+
+.button-item-med {
+  flex: 1; 
+  text-align: center; 
+  margin: 0 5px; 
+}
+
+.blue-button-med {
+  background-color: #0897a5;
+  color: #fff;
+  font-size: 13px;
+  border: none;
+  width: 100%; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 15px 0; 
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.blue-button:hover-radio {
+  background-color: #0056b3;
+}
+
+.consultatii-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.consultatii-popup-content {
+  background-color: #fff;
+  padding: 20px;
+  height: 75vh;
+  width: 65%;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.consultatii-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.popup-arrow {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.popup-arrow:focus {
+  outline: none;
+}
+
+.popup-close-button {
+  margin-top: 100px; 
+  background-color: #0897a5;
+  color: #fff;
+  font-size: 13px;
+  border: none;
+  padding: 10px 20px; 
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+.pacienti-table-container {
+  width: 50%;
+  margin: 160px auto 20px; /
+  background-color: #ffffff; 
+  opacity: 90%;
+  border-radius: 10px; 
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.pacienti-table {
+  width: 100%;
+  margin-bottom: 0px;
+  padding-top: 200px;
+  border-collapse: collapse;
+}
+
+.pacienti-table th,
+.pacienti-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+  font-size: 20px; 
+  font-family: Arial, sans-serif; 
+}
+
+.pacienti-table th {
+  background-color: #f2f2f2;
+}
+
+.pacienti-table tbody td {
+  font-size: 16px;
+}
+
+.scrollable-table {
+  max-height: 500px; 
+  overflow-y: auto; 
+  width: 100%; 
+  margin-top: 20px; 
+}
+
+.date-picker {
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.arrow-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 15px;
+}
+
+.selected-date {
+  font-size: 18px;
+}

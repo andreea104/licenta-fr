@@ -1,0 +1,120 @@
+/* RadiografiiPage.modules.css */
+/* RadiografiiPage.modules.css */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    gap: 20px; 
+    width: 70%; 
+  }
+  
+  .card {
+    width: 500px; 
+    height: 175px; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+
+  /* Stilizare pentru modalul de afișare a radiografiei */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 200px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .modal-image {
+    max-width: 10%;
+    max-height: 8vh;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .button-list-radio {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    width: 70%;
+    position: absolute;
+    right: 30px; 
+    top: -2px; 
+  }
+  
+  .button-item-radio {
+    flex: 1; 
+    text-align: center; 
+    margin: 0 5px; 
+  }
+  
+  .blue-button-radio {
+    background-color: #0897a5;
+    color: #fff;
+    font-size: 13px;
+    border: none;
+    width: 100%; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 15px 0;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  
+  .blue-button:hover-radio {
+    background-color: #0056b3;
+  }
+
+
+  .logout-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .logout-modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logout-modal-content button {
+    background-color: #0897a5;
+    color: #fff;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  

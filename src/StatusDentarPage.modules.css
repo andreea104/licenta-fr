@@ -1,0 +1,65 @@
+.bckg-status {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%; 
+    background-image: url(./dinti-all-1.png);
+    background-size: 950px 700px; 
+  }
+  
+  .search-section-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 15px; 
+    padding-left: 340px;
+    width: 38.7%;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .search-input {
+    margin-right: 10px; 
+  }
+  
+  .search-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .popup {
+  position: fixed;
+  top: 120px;
+  right: 70px;
+  left: 1100px;
+  bottom: 120px;
+  margin-bottom: -70px;
+  opacity: 85%;
+  width: 300px;
+  background-color: #fdd9c9;
+  border-left: 1px solid #ccc;
+  box-shadow: -3px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-content {
+  padding: 20px;
+}
+
+.popup-content p {
+  margin: 0 0 10px;
+}

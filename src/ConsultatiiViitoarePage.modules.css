@@ -1,0 +1,18 @@
+.blue-button-cs {
+    background-color: #0897a5;
+    color: #fff;
+    font-size: 13px;
+    border: none;
+    width: 50%;
+    height: 2vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 15px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-left: 220px;
+    text-align: center;
+  }
+  
